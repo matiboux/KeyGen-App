@@ -62,19 +62,19 @@
                 if (KeygenLib.errorInfo.code == '00') {
                     $('#bye').removeClass().addClass('content-box-header header-primary');
                     $('#bye p').html('Your Keygen: <span>' + keygen + '</span>');
-                    $('#bye .copykeygen').animate({ right: 0 });
+                    $('#bye .copykeygen').animate({ right: '-28px' });
                 }
                 else {
                     $('#bye').removeClass().addClass('content-box-header header-danger');
                     $('#bye p').html('An error occured (#' + KeygenLib.errorInfo.code + '): <span>' + KeygenLib.errorInfo.message + '</span>');
-                    $('#bye .copykeygen').animate({ right: '-67px' });
+                    $('#bye .copykeygen').animate({ right: '-99px' });
                 }
             });
             
             $('.keygen form :reset').click(function () {
                 $('#bye').removeClass().addClass('content-box-header');
                 $('#bye p').html('Use the form below to generate your own Keygen');
-                $('#bye .copykeygen').animate({ right: '-67px' });
+                $('#bye .copykeygen').animate({ right: '-99px' });
             });
             
             $('#bye .copykeygen').click(function(e) {
@@ -106,7 +106,7 @@
                 $(currentFocus).focus();
 	
                 if (succeed) {
-                    $(this).animate({ right: '-26px' }, function () { $(this).animate({ right: 0 }); });
+                    $(this).animate({ right: 0 }, function () { $(this).animate({ right: '-28px' }); });
                 }
 	
                 return false;
