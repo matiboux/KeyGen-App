@@ -178,19 +178,22 @@ body {
 }
 
 #page-content .content-box {
-	background: #fff;
-	padding: 0;
-	margin: 0 auto 20px;
-	box-shadow: 0 2px 10px rgba(0, 0, 0, .16);
-	border: 1px solid rgba(0, 0, 0, .24);
-	border-radius: 5px;
-	overflow-x: auto;
+    background: #fff;
+    padding: 0;
+    margin: 0 auto 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, .16);
+    border: 1px solid rgba(0, 0, 0, .24);
+    border-radius: 5px;
+    overflow-x: auto;
 }
 #page-content .content-box.transparent {
 	background: transparent;
 	padding: 5px;
 	box-shadow: none;
 	border: 0;
+}
+#page-content .content-box.keygen {
+    overflow-x: hidden;
 }
 
 #page-content .content-box .content-box-header {
@@ -212,16 +215,32 @@ body {
     margin: 0 0 0 20px;
     font-size: 18px;
     font-weight: 500;
+    text-overflow: ellipsis;
 }
 #page-content .content-box .content-box-header p span {
     font-size: 16px;
     font-weight: 400;
+}
+#page-content .content-box .content-box-header .copykeygen {
+    background: #12355b;
+    display: inline-block;
+    position: relative;
+    padding: 21px 12px;
+    float: right;
+    top: -44px;
+    right: -67px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
 }
 
 #page-content .content-box .content-box-body {
     padding: 20px;
 }
 
+
+/* more dickpick */
 
 
 .page-content h1 {
