@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" IgnorableNamespaces="uap mp">
-  <Identity Name="Matiboux.KeyGenApp" Version="1.1.1.0" Publisher="CN=B191C96C-226D-4D2D-8F22-49DB32089AEC" />
+  <Identity Name="Matiboux.KeyGenApp" Version="1.1.2.0" Publisher="CN=B191C96C-226D-4D2D-8F22-49DB32089AEC" />
   <mp:PhoneIdentity PhoneProductId="4db451e1-527d-4cee-8b34-5d375b8285b8" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>KeyGen App</DisplayName>
@@ -16,7 +16,6 @@
   <Applications>
     <Application Id="App" StartPage="index.html">
       <uap:VisualElements DisplayName="KeyGen App" Description="The KeyGen App for Windows, an offline open source password generator service." BackgroundColor="transparent" Square150x150Logo="images\Square150x150Logo.png" Square44x44Logo="images\Square44x44Logo.png">
-        <uap:LockScreen Notification="badgeAndTileText" BadgeLogo="images\BadgeLogo.png" />
         <uap:DefaultTile Wide310x150Logo="images\Wide310x150Logo.png" ShortName="KeyGen App">
           <uap:ShowNameOnTiles>
             <uap:ShowOn Tile="wide310x150Logo" />
