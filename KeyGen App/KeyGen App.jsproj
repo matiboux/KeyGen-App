@@ -77,8 +77,8 @@
     <Content Include="images\Square44x44Logo.targetsize-24_altform-unplated.png" />
     <Content Include="images\StoreLogo.png" />
     <Content Include="images\Wide310x150Logo.scale-200.png" />
-    <Content Include="js\bootstrap.min.js" />
     <Content Include="js\jquery-3.1.1.min.js" />
+    <Content Include="js\bootstrap.min.js" />
     <Content Include="js\KeygenLib.js" />
     <Content Include="js\keygenapp.js" />
     <Content Include="css\keygenapp.css" />
