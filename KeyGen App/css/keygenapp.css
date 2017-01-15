@@ -152,7 +152,7 @@ body {
 #header .header-bottom {
 	background: #3e6990;
     margin: -2px;
-	padding: 10px 0 20px;
+	padding: 10px 0 30px;
 }
 #header .header-bottom h2 {
     margin: 0 0 0 20px;
@@ -163,9 +163,10 @@ body {
     position: relative;
     top: -22px;
     margin: 0 20px 0;
+    float: right;
     font-size: 14px;
+    height: 0px;
     font-style: italic;
-    text-align: right;
 }
 
 
@@ -225,7 +226,7 @@ body {
     background: #12355b;
     display: inline-block;
     position: relative;
-    padding: 21px 42px 21px 14px;
+    padding: 22px 42px 22px 14px;
     float: right;
     top: -44px;
     right: -99px;
