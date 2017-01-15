@@ -1,4 +1,4 @@
-# KeyGen App v1.1.3 - DEVELOPMENT BRANCH
+# KeyGen App v1.1.3
 
 The **KeyGen App** is an *offline open source password generator service* for the Windows 10 environment.  
 This software has been made using Visual Studio Community 2015.
